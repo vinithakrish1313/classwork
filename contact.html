@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta information -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="name,mobile number and type of communication">
+
+    <!-- title of the webpage -->
+
+    <title>contact us</title>
+    <link rel="contact us.html">
+</head>
+
+<body>
+    <center>
+    <!-- heading -->
+    <h2>Contact Us</h2>
+
+    <form>
+        <!-- name -->
+
+        <label for="name">Name</label><br>
+        <input type="name"
+        id="name"
+        name="name"
+        placeholder="Enter your fullname" required><br><br>
+
+        <!-- tel -->
+
+        <label for="mobile">Mobile Number</label><br>
+        <input type="tel"
+        id="mobile"
+        placeholder="123-455-6778"
+        pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required><br><br>
+
+
+        <!-- category -->
+
+
+        <label for="communication"> Communication Type </label><br>
+        <select id="communication"
+        name="communication">
+        <option value="sales">Sales</option>
+        <option value="service">Service</option>
+        <option value="enquiry">Enquiry</option>
+        <option value="advertisement or complaint">Advertisement or complaint</option>
+
+    </select><br><br>
+
+        <!-- submit -->
+         <button type="submit">Submit</button>
+
+
+    </form>
+    </center>
+</body>
+</html>
